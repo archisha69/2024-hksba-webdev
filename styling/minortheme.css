@@ -1,0 +1,62 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+a {
+    color: #17a8d4
+}
+a[tabindex]:focus {
+    color: #115569;
+    outline: none;
+}
+h1 {
+    color: #17a8d4;
+    font: 30px Verdana;
+}
+h2 {
+    color: #bfcbde;
+    font: 20px Verdana;
+}
+h3 {
+    color: #bfcbde;
+    font: 15px Verdana;
+}
+p {
+    color: #fcfcfc;
+    font: 15px Verdana;
+}
+iframe {
+    background-color: #bfcbde;
+    width: 100%;
+    height: 200px;
+}
+hr {
+    border-top: 1px solid #115569;
+}
+legend {
+    padding: 10px;
+    font: 18px Verdana;
+    color: #fcfcfc;
+    text-transform: uppercase;
+}
+fieldset {
+    padding-left: 0px;
+    padding-top: 0px;
+    border-color: #5c5c5b;
+    border-style: solid;
+}
+ul {
+    color: #fcfcfc;
+    background-color: #212124;
+    font: 15px Verdana;
+}
+ul li {
+    color: #fcfcfc;
+    margin: 5px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}

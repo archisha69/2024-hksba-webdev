@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body bgcolor="#bfcbde">
+        <pre>
+&lt;!DOCTYPE html&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;html&gt;
+    &lt;style&gt;
+        .grandParentContainer {
+		    display: table;
+            height: 100%;
+            margin: 0 auto;
+	    }
+    	.parentContainer {
+            padding-top: 30%;
+            padding-bottom: 30%;
+            height: 100%;
+    		display: table-cell;
+            vertical-align: middle;
+    	}
+        fieldset {
+            background-color: #bfcbde;
+        }
+        .button {
+            background-color: #115569;
+            border: none;
+            color: #fcfcfc;
+            padding: 15px
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+    &lt;/style&gt;
+    &lt;head&gt;
+        &lt;link rel="stylesheet" href="../style.css"&gt;
+        &lt;title&gt;CodeFactor Login&lt;/title&gt;
+        &lt;script&gt;
+            var password = "2022sba";
+            function auth(event) {
+                event.preventDefault();
+                var input = document.getElementById("password").value;
+                if (input === password) {
+                    window.location.replace("home.html");
+                } else {
+                    alert("Invalid password, please try again.");
+                    return;
+                }
+            }
+            function getpasswd() {
+                alert('Password is: ' + password);
+            }
+        &lt;/script&gt; 
+    &lt;/head&gt;
+    &lt;body background="../media/images/loginbg.png"&gt;
+        &lt;form id="form" action="post"&gt;
+            &lt;div class="grandParentContainer"&gt;
+                &lt;div class="parentContainer"&gt;
+                    &lt;fieldset&gt;
+                        &lt;div class="form-group"&gt;
+                            &lt;h1 class="center"&gt;Welcome to CodeFactor, please login to continue.&lt;/h1&gt;
+                            &lt;label for="password0" class="center"&gt;Password&lt;/label&gt;
+                            &lt;input type="password" id="password" class="form-control center" &gt;
+                        &lt;/div&gt;
+                        &lt;p class="center"&gt;&lt;a onclick="getpasswd();"&gt;Forgot password?&lt;/a&gt;&lt;/p&gt;
+                        &lt;button type="submit" class="btn btn-outline-success btn-lg shadow center button" onClick="auth(event)"&gt;Submit&lt;/button&gt;
+                    &lt;/fieldset&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/form&gt;
+    &lt;/body&gt;
+    &lt;noscript&gt;
+        &lt;p1&gt;&lt;b&gt;Uh oh!&lt;/b&gt;&lt;/p1&gt;&lt;br&gt;
+        &lt;p3&gt;Looks like your browser does not support JavaScript.&lt;/p3&gt;&lt;br&gt;
+        &lt;p&gt;Please try to use other browsers to fix this problem.&lt;/p&gt;
+    &lt;/noscript&gt;
+&lt;/html&gt;
+        </pre>
+    </body>
+</html>

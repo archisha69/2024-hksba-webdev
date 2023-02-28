@@ -1,0 +1,64 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+a {
+    color: #17a8d4
+}
+a[tabindex]:focus {
+    color: #115569;
+    outline: none;
+}
+h1 {
+    color: #17a8d4;
+    font: 20px Verdana;
+}
+h2 {
+    color: #17a8d4;
+    font: 15px Verdana;
+}
+p {
+    color: #fcfcfc;
+    font: 15px Verdana;
+}
+hr {
+    border-top: 1px solid #115569;
+}
+fieldset {
+    background-color: #bfcbde;
+    padding-left: 0px;
+    padding-top: 0px;
+    border-color: #5c5c5b;
+    border-style: solid;
+}
+.grandParentContainer {
+    display: table;
+    height: 100%;
+    margin: 0 auto;
+}
+.parentContainer {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.alignleft {
+    margin-left: 20px;
+}
+.button {
+    background-color: #17a8d4;
+    border: none;
+    color: #fcfcfc;
+    padding: 30px 20px 30px 20px
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
