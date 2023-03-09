@@ -9,11 +9,9 @@ main gray: #212124
 minor gray: #5c5c5b
 
 <!-- backgrounds -->
-login: #9c9c9c
 top: minor black
 menu: main gray
 content: main black
-footer: minor black
 
 <!-- tags -->
 nav color: #333
