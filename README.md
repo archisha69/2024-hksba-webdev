@@ -1,6 +1,15 @@
 -----------------------------------------------------------------------------------------------------------------------
+
 # DO NOT DELETE THIS FILE #
-# ***This is important, please read this carefully if you are confused with this website and the usage of Cookies.*** #
+
+This is important. Please read this carefully if you are confused with:
+
+- this website
+
+- the usage of Cookies
+
+- the usage of highlight.js
+
 -----------------------------------------------------------------------------------------------------------------------
 
 ## About the website (project) ##
@@ -32,5 +41,12 @@ I (author) do not keep and I do not use registered Cookie(s) in:
 The registered Cookie(s) will be deleted after the session is being closed and stopped.
 
 -----------------------------------------------------------------------------------------------------------------------
+## About the usage of highlight.js in this web ##
 
-Author it0007, edited on 2023/2/11
+This website used highlight.js for code syntax highlighting.
+
+All related files and rights of removal goes to: https://highlightjs.org
+
+-----------------------------------------------------------------------------------------------------------------------
+
+Author it0007, edited on 2023/3/4 (4 March 2023)
